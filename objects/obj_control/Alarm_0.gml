@@ -25,5 +25,5 @@ if (instance_number(obj_enemy1) <= 100) {
 }
 
 if (instance_exists(obj_arrow)) {
-	alarm[0] = random_range(room_speed * 0.1 , room_speed * 2);
+	alarm[0] = random_range(room_speed * 0.05 , room_speed * 10/timer+1);
 }
