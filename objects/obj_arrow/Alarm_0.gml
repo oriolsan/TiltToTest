@@ -1,2 +1,2 @@
-/// Shooting timer
+/// @description Shooting timer
 canShoot = 1;

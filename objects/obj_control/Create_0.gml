@@ -1,4 +1,4 @@
-///alarm spawn
+/// @description Alarm spawn
 drawText = -1; 
 alarm[0] = room_speed * 1;
 randomize();
