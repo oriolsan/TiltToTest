@@ -4,4 +4,5 @@ if (!instance_exists(obj_arrow) && instance_exists(obj_enemy1)) {
     alarm [1] = room_speed * 2;
     drawText = 1;
 	//play_again()
+	instance_create_depth(0,0,0, obj_restart);
 }

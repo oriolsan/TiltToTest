@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "fa1f7eae-0859-4767-b535-1fb63adb8333",
+            "Value": {
+                "id": "992d9ab8-10d6-4865-83e9-e1189aec8325",
+                "resourcePath": "objects\\obj_restart\\obj_restart.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fdafacc8-b2b2-4909-911c-9a6f66c3d724",
             "Value": {
                 "id": "6c6a1490-b137-4fcc-b266-176ecd15e6a9",
