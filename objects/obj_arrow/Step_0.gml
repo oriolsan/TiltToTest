@@ -22,8 +22,8 @@ if (canShoot) {
 	    a = instance_create_depth(x, y, 0, obj_cone); 
 	    a.direction = direction;
 	    a.image_angle = direction;
-	    a.speed = 5;
-	    alarm[0] = room_speed * 2;
+	    a.speed = 8;
+	    alarm[0] = room_speed * 5;
 	    canShoot = false;  
 	}
 }

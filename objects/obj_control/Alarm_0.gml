@@ -28,8 +28,10 @@ if (timer <= 5){
 	spawn_timer = 5;
 } else if (timer <= 20) {
 	spawn_timer = 20/timer;
-} else { 
+} else if (timer <= 40){
 	spawn_timer = 0.8;
+} else { 
+	spawn_timer = 0.5;
 }
 	
 if (instance_exists(obj_arrow)) {
