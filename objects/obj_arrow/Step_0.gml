@@ -18,14 +18,17 @@ image_angle = direction;
 
 // Shooting
 if (canShoot) {
+	sprite_index = spr_arrow_green;
     if (mouse_check_button(mb_left)) {
 	    a = instance_create_depth(x, y, 0, obj_cone); 
 	    a.direction = direction;
 	    a.image_angle = direction;
 	    a.speed = 8;
-	    alarm[0] = room_speed * 5;
+	    alarm[0] = room_speed * 2;
 	    canShoot = false;  
 	}
+} else {
+	sprite_index = spr_arrow;
 }
 
 // Death
